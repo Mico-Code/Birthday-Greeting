@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(to right, pink, rgb(255, 130, 151));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    font-size:25px;
+}
+
+button{
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.confetti-piece {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: -10px;
+    border-radius: 2px;
+    animation: fall linear forwards;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+    }
+}
