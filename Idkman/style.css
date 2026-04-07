@@ -14,10 +14,7 @@ h1{
 button{
     background: transparent;
     border: transparent;
-}
-
-.letter1{
-    background: transparent;
+    cursor: pointer;
 }
 
 .confetti-piece {
