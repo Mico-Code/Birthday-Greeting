@@ -5,16 +5,3 @@ document.addEventListener("DOMContentLoaded", function() {
             window.location.href = "Birthdayletter.html";
         });
     }
-
-    const letterbtn = document.getElementById("letter1");
-    if (letterbtn) {
-        letterbtn.addEventListener("click", () => {
-            const link = document.createElement("a");
-            link.href = "Letter.docx";
-            link.download = "Letter.docx";
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });
-    }
-});
