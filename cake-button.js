@@ -4,4 +4,4 @@ document.addEventListener("DOMContentLoaded", function() {
         cakebtn.addEventListener("click", () => {
             window.location.href = "Birthdayletter.html";
         });
-    }
+    }});
