@@ -16,6 +16,10 @@ button{
     border: transparent;
 }
 
+.letter1{
+    background: transparent;
+}
+
 .confetti-piece {
     position: fixed;
     width: 10px;
