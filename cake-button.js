@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (letterbtn) {
         letterbtn.addEventListener("click", () => {
             const link = document.createElement("a");
-            link.href = "Birthday Letter/Letter.docx";
+            link.href = "Letter.docx";
             link.download = "Letter.docx";
             document.body.appendChild(link);
             link.click();
