@@ -23,6 +23,31 @@ img.elgato{
     width: 500px;
 }
 
+
+.design-left {
+    margin: 10px;
+    position: fixed;
+    top: 50%;
+    bottom: 10px;
+    transform: translateY(-50%);
+    left: 800px;
+    height: 750px;
+    width: 700px;
+    object-fit: contain;
+    rotate: -25deg;
+}
+
+.design-right {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 800px;
+    height: 750px;
+    width: 700px;
+    object-fit: contain;
+    rotate: 25deg;
+}
+
 h1{
     font-size:109px;
     font-family: "Leckerli One", cursive;
@@ -51,8 +76,7 @@ h2{
     color: black;
     -webkit-text-stroke: 2.5px #ffffff;
     paint-order: stroke fill;
-    margin: 5px;
-    padding: 5px;
+    padding-top: 15px;
 }
 
 button{
