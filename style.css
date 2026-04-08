@@ -40,7 +40,7 @@ h2{
     color: black;
     -webkit-text-stroke: 2.5px #ffffff;
     paint-order: stroke fill;
-    margin: 0px;
+    margin: 5px;
     padding: 5px;
 }
 
