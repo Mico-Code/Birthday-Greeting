@@ -16,6 +16,12 @@ button img{
 img.migu-img{
     height:175px;
     width: 175px;
+    position: flex;
+}
+
+img.elgato{
+    height: 500px;
+    width: 500px;
 }
 
 h1{
