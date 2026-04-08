@@ -23,7 +23,6 @@ img.elgato{
     width: 500px;
 }
 
-
 .design-left {
     margin: 10px;
     position: fixed;
@@ -46,6 +45,18 @@ img.elgato{
     width: 700px;
     object-fit: contain;
     rotate: 25deg;
+}
+
+@media (max-width: 768px) {
+    .design-left {
+        width: 50px;
+        left: 0;
+    }
+
+    .design-right {
+        width: 50px;
+        right: 0;
+    }
 }
 
 h1{
