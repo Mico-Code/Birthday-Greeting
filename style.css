@@ -13,9 +13,9 @@ button img{
     height: 800px;
 }
 
-img.migu-img{
-    height:25px;
-    width: 25px;
+h1 img.migu-img{
+    height:175px;
+    width: 175px;
     position: flex;
 }
 
