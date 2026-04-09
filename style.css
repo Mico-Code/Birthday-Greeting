@@ -38,40 +38,7 @@ img.designTopright{
     transform: scaleX(-1);
 }
 
-.design-left {
-    margin: 10px;
-    position: fixed;
-    top: 550px;
-    bottom: 10px;
-    left: 650px;
-    height: 750px;
-    width: 700px;
-    object-fit: contain;
-    rotate: -25deg;
-}
-
-.design-right {
-    position: fixed;
-    top: 550px;
-    transform:scaleX(-1);
-    right: 650px;
-    height: 750px;
-    width: 700px;
-    object-fit: contain;
-    rotate: 25deg;
-}
-
 @media (max-width: 768px) {
-    .design-left {
-        width: 50px;
-        left: 0;
-    }
-
-    .design-right {
-        width: 50px;
-        right: 0;
-    }
-
     .designTopleft {
         width: 50px;
         left: 0;
@@ -87,7 +54,6 @@ h1{
     font-size: 90px;
     font-family: "Leckerli One", cursive;
     color: white;
-    text-shadow: 7px 7px 14px rgba(0, 0, 0, 1);
     -webkit-text-stroke: 14px black;
     paint-order: stroke fill;
     margin: 0;
@@ -98,7 +64,6 @@ h1.birthday-greeting{
     font-size: 50px;
     font-family: "Leckerli One", cursive;
     color: white;
-    text-shadow: 7px 7px 14px rgba(0, 0, 0, 1);
     -webkit-text-stroke: 14px black;
     paint-order: stroke fill;
     margin: 0;
