@@ -25,23 +25,25 @@ img.elgato{
 
 img.designTopleft{
     position: fixed;
-    top: 50px;
-    left: 1100px;
+    top: 300px;
+    left: 5px;
+    height: 250px;
+    object-fit: contain;
 }
 img.designTopright{
     position: fixed;
-    top: 50px;
-    right: 1150px;
+    top: 300px;
+    right: 10px;
+    height: 250px;
     transform: scaleX(-1);
 }
 
 .design-left {
     margin: 10px;
     position: fixed;
-    top: 50%;
+    top: 550px;
     bottom: 10px;
-    transform: translateY(-50%);
-    left: 750px;
+    left: 650px;
     height: 750px;
     width: 700px;
     object-fit: contain;
@@ -50,9 +52,9 @@ img.designTopright{
 
 .design-right {
     position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 750px;
+    top: 550px;
+    transform:scaleX(-1);
+    right: 650px;
     height: 750px;
     width: 700px;
     object-fit: contain;
@@ -66,6 +68,16 @@ img.designTopright{
     }
 
     .design-right {
+        width: 50px;
+        right: 0;
+    }
+
+    .designTopleft {
+        width: 50px;
+        left: 0;
+    }
+
+    .designTopright {
         width: 50px;
         right: 0;
     }
